@@ -16,6 +16,7 @@ public class GameLoop implements Runnable {
         interval = 1000.0f / frameRate;
         running = true;
     }
+
     private void update(ArrayList<Character> characterList) {
 
         for (Character character : characterList ) {
